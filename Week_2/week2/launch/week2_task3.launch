@@ -1,0 +1,9 @@
+<launch>
+    <node name="pub1" pkg="week2" type="publish_radius.py"/>
+    <node name="service" pkg="week2" type="turtle_service.py"/>
+    <node name="client" pkg="week2" type="turtle_client.py"/>
+    <node name="sub1" pkg="week2" type="turtle_client.py"/>
+    <node name="pub2" pkg="week2" type="turtle_client.py" output="screen"/>
+
+
+</launch>

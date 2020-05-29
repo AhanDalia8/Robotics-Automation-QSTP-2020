@@ -1,0 +1,3 @@
+float32 first_coordinate
+float32 second_coordinate
+int32 to_polar
